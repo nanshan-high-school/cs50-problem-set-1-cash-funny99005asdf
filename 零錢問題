@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main() {
+int money;
+std::cout<<"輸入價錢";
+std::cin>>money;
+ int a=money/50;
+std::cout<<"你有";
+std::cout<<a;
+std::cout<<"個五十元";
+std::cout<<"\n";
+ int b=money%50/10;
+std::cout<<"你有";
+std::cout<<b;
+std::cout<<"個十元";
+std::cout<<"\n";
+ int c=money%50%10/5;
+std::cout<<"你有";
+std::cout<<c;
+std::cout<<"個五元";
+std::cout<<"\n";
+ int d=money%50%10%5/1;
+std::cout<<"你有";
+std::cout<<d;
+std::cout<<"個一元";  
+}
